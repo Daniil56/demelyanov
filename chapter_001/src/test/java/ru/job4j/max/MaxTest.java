@@ -17,6 +17,6 @@ public class MaxTest {
 	@Test
 	public void whenMaxWhithTwoArgs() {
 		Max maxvalue = new Max();
-		assertThat(maxvalue.max(3, 2), is(3));
+		assertThat(maxvalue.max(3, 2, 4), is(4));
 	 }
 }
